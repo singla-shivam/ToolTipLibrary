@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Tool Tip Library</title>
+        <link rel="stylesheet" href="ttl.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <div id="ttl">
+            <input type = "text" data-title="Print">
+            <button data-title="Submit">Submit</button>
+        </div>
+        <div id="ttl2">
+            <input type = "text" data-title="Print">
+            <button data-title="Submit">Submit</button>
+        </div>
+        <script type="text/javascript" src="ttl.min.js"></script>
+        <script>
+            ttl.upgrade(document.getElementById("ttl"));
+        </script>
+    </body>
+</html>
